@@ -20,9 +20,6 @@ export default function ViewPort() {
     const heigth = viewPort.current.offsetHeight;
     const width = viewPort.current.offsetWidth;
 
-    // console.log(heigth);
-    // console.log(templateSize.heigth);
-
     var heightScaling = 1;
     var widthScaling = 1;
     var offset = 0.05;
@@ -56,8 +53,6 @@ export default function ViewPort() {
       })
     });
 
-    console.log(files);
-
     setListOfTemplates(files);
     setTemplateUrl(files[0].url);
   }
@@ -77,8 +72,6 @@ export default function ViewPort() {
   }
 
   useEffect(() => {
-    console.log("TEMPLATE EFFECT")
-
     calibrateTemplateSize();
   }, [templateUrl])
 
@@ -87,7 +80,6 @@ export default function ViewPort() {
   }, [profileImageUrl])
 
   useEffect(() => {
-    console.log("TEMPLATE SIZE")
     calculateScaling();
 
     window.addEventListener("resize", calculateScaling);
@@ -99,8 +91,6 @@ export default function ViewPort() {
   }, [templateSize])
 
   useEffect(() => {
-    console.log("ONCE")
-
     window.addEventListener('load', onPageLoad);
     
 
