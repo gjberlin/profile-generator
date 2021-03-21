@@ -1,6 +1,5 @@
 import React, { Component, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import Settings from './settings/Settings';
-import image from '../templates/Profilbild_GJgoesAGH.png'
 import './ViewPort.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
