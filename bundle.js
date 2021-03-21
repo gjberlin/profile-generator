@@ -1018,6 +1018,17 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 
 /***/ }),
 
+/***/ "./src/templates/GJ Logo.png":
+/*!***********************************!*\
+  !*** ./src/templates/GJ Logo.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"670b01650d4c45816fd7.png\";\n\n//# sourceURL=webpack://profile-generator/./src/templates/GJ_Logo.png?");
+
+/***/ }),
+
 /***/ "./src/templates/Profilbild_GJgoesAGH.png":
 /*!************************************************!*\
   !*** ./src/templates/Profilbild_GJgoesAGH.png ***!
@@ -1035,7 +1046,7 @@ eval("module.exports = __webpack_require__.p + \"6bedb1f3c7a10e42f8b3.png\";\n\n
   \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./Profilbild_GJgoesAGH.png\": \"./src/templates/Profilbild_GJgoesAGH.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/templates sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack://profile-generator/./src/templates/_sync_nonrecursive_\\.(png%7Cjpe?");
+eval("var map = {\n\t\"./GJ Logo.png\": \"./src/templates/GJ Logo.png\",\n\t\"./Profilbild_GJgoesAGH.png\": \"./src/templates/Profilbild_GJgoesAGH.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/templates sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack://profile-generator/./src/templates/_sync_nonrecursive_\\.(png%7Cjpe?");
 
 /***/ })
 
