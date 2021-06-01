@@ -1029,13 +1029,24 @@ eval("module.exports = __webpack_require__.p + \"82eb2b5ca6b47a8b316f.png\";\n\n
 
 /***/ }),
 
+/***/ "./src/templates/Pride .png":
+/*!**********************************!*\
+  !*** ./src/templates/Pride .png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"65a34a8203f06670a400.png\";\n\n//# sourceURL=webpack://profile-generator/./src/templates/Pride_.png?");
+
+/***/ }),
+
 /***/ "./src/templates sync \\.(png|jpe?g|svg)$":
 /*!*************************************************************!*\
   !*** ./src/templates/ sync nonrecursive \.(png|jpe?g|svg)$ ***!
   \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./GJ ins AGH.png\": \"./src/templates/GJ ins AGH.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/templates sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack://profile-generator/./src/templates/_sync_nonrecursive_\\.(png%7Cjpe?");
+eval("var map = {\n\t\"./GJ ins AGH.png\": \"./src/templates/GJ ins AGH.png\",\n\t\"./Pride .png\": \"./src/templates/Pride .png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/templates sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack://profile-generator/./src/templates/_sync_nonrecursive_\\.(png%7Cjpe?");
 
 /***/ })
 
